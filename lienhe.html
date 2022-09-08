@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="./imgage/favicon.ico">
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" />
+    <link rel="stylesheet" href="./fontawesome-free-6.2.0-web/css/all.css">
+    <link rel="icon" href="./imgage/favicon.ico">
+    <title>Liên hệ</title>
+    <style>
+        .anh_order {
+            width: 40px;
+            height: 40px;
+        }
+
+        .describe {
+            width: 100vh;
+        }
+
+        .btn {
+            text-align: center;
+            display: block;
+        }
+    </style>
+</head>
+
+<body>
+    <!-- header -->
+    <header class="header">
+        <a href="trangChu.html"><img src="./imgage/logo.png" id="logo" alt=""></a>
+        <img class="header__img-img1" src="./imgage/header-img1.png" alt="img1">
+        <img class="header__img-img2" src="./imgage/header-img2.png" alt="img2">
+        <img class="header__img-img3" src="./imgage/header-img3.png" alt="img3">
+        <!-- nav -->
+        <div class="nav">
+            <nav class="nav__bar">
+                <a class="nav__bar-item" href="trangChu.html">Trang Chủ</a>
+                    <a class="nav__bar-item" href="gioithieu.html">Giới Thiệu</a>
+                    <a class="nav__bar-item" href="sanpham.html">Sản Phẩm</a>
+                    <a class="nav__bar-item" href="tintuc.html">Tin Tức</a>
+                    <a class="nav__bar-item" href="dangnhap.html">Đăng Nhập</a>
+                    <a class="nav__bar-item" href="dangki.html">Đăng Ký</a>
+                    <a class="nav__bar-item" href="lienhe.html">Liên Hệ</a>
+
+                <div class="nav__bar-find">
+                    <input class="nav__find-input" stype="text" placeholder=" Nhập nội dung càn tìm...">
+                    <i class="nav__find-search fas fa-search "></i>
+                    <i class="nav__find-cart fas fa-shopping-cart"></i>
+                </div>
+            </nav>
+        </div>
+
+    </header>
+
+    <!-- main -->
+    <main>
+
+        <fieldset class="body__lienhe">
+            <div class="container__dangNhap container__lienhe">
+                <div>
+                    <div class="gt__h1">
+                        <h1 class="gt__des">Liên hệ</h1>
+                        <div class="gt_decoration"></div>
+                    </div>
+                    <h2><img src="./imgage/lienhe/check-in.png" alt="" style="width: 18px;"> Địa chỉ: 0123, Tòa Nhà ABC, TP. Cần
+                        Thơ
+                        <p>Nếu bạn có góp ý vui lòng liên hệ bằng thư điện tử hoặc sử dụng biểu mẩu bên dưới. Xin cảm ơn</p>
+                    </h2>
+                </div>
+                <div class="gt__h1">
+                    <h1 class="gt__des">Góp Ý</h1>
+                    <div class="gt_decoration"></div>
+                </div>
+                <table class="tb__dangnhap">
+                    <!-- ho ten -->
+                    <tr class="row__lienhe">
+                        <td class="td" align="left">
+                            <i class="icon__lienhe fa-solid fa-user"></i>
+                        </td>
+                        <td class="td">
+                            <label for="id">
+                                <input class="input__dangnhap input__lienhe" type="text" name="email"
+                                    placeholder="Vui lòng nhập họ tên của bạn">
+                            </label>
+                        </td>
+                    </tr>
+                    <!-- email -->
+                    <tr class="row__lienhe">
+                        <td class="td" align="left">
+                            <i class="icon__lienhe fa-regular fa-envelope icon__dangnhap"></i>
+                        </td>
+                        <td class="td">
+                            <label for="id">
+                                <input class="input__dangnhap input__lienhe" type="text" name="email"
+                                    placeholder="Vui lòng nhập email">
+                            </label>
+                        </td>
+                    </tr>
+                    <!-- chu de -->
+                    <tr class="row__lienhe">
+                        <td class="td" align="left">
+                            <i class="icon__lienhe fa-sharp fa-solid fa-list-ul"></i>
+                        </td>
+                        <td class="td">
+                            <select class="itemSelect__lienhe">
+                                <option value="0">Về Sản Phẩm/ Dịch Vụ</option>
+                                <option value="2">Về Ưu Đãi Thành Viên</option>
+                                <option value="3">Về Tin Tuyển Dụng</option>
+                            </select>
+                        </td>
+                    </tr>
+                    <!-- nội dung -->
+                    <tr class="row__lienhe">
+                        <td class="td" align="left">
+                            <i class="icon__lienhe fa-regular fa-envelope icon__dangnhap"></i>
+                        </td>
+                        <td class="td">
+                            <textarea cols="50" rows="10" placeholder="Nội dung cần liên hệ"
+                                style="border: solid 1px #333;"></textarea>
+                        </td>
+                    </tr>
+
+                    <!-- btn -->
+                    <tr class="row__lienhe">
+                        <td class="td" colspan="2" align="center">
+                            <div class="btn"><input class="btn__dangnhap" type="submit" value="Gửi"
+                                    style="padding: 5px 10px;"></div>
+                        </td>
+                    </tr>
+
+                </table>
+            </div>
+
+        </fieldset>
+    </main>
+
+    <!-- footer -->
+    <footer>
+        <div class="footer footer__dangnhap">
+            <div class="footer__item">&copy;2021 Bản quyền thuộc về FreeezeVN.
+                <a class="footer__item-icon" href=""><i class="fa-brands fa-facebook"></i></a>
+                <a class="footer__item-icon" href=""><i class="fa-brands fa-twitter"></i></a>
+                <a class="footer__item-icon" href=""><i class="fa-brands fa-pinterest"></i></a>
+            </div>
+        </div>
+        <a class="footer__to_top" href="#logo"><img src="./imgage/top.png" alt="top" width="20px"></a>
+    </footer>
+</body>
+
+</html>

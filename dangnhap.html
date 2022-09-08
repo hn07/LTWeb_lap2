@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="./imgage/favicon.ico">
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" />
+    <link rel="stylesheet" href="./fontawesome-free-6.2.0-web/css/all.css">
+    <link rel="icon" href="./imgage/favicon.ico">
+    <title>Đăng Nhập</title>
+    <style>
+        .anh_order {
+            width: 40px;
+            height: 40px;
+        }
+
+        .describe {
+            width: 100vh;
+        }
+
+        .imglogin {
+            width: 150px;
+            height: 150px;
+        }
+    </style>
+</head>
+
+<body>
+    <!-- header -->
+    <header class="header">
+        <a href="trangChu.html"><img src="./imgage/logo.png" id="logo" alt=""></a>
+        <img class="header__img-img1" src="./imgage/header-img1.png" alt="img1">
+        <img class="header__img-img2" src="./imgage/header-img2.png" alt="img2">
+        <img class="header__img-img3" src="./imgage/header-img3.png" alt="img3">
+        <!-- nav -->
+        <div class="nav">
+            <nav class="nav__bar">
+                <a class="nav__bar-item" href="trangChu.html">Trang Chủ</a>
+                <a class="nav__bar-item" href="gioithieu.html">Giới Thiệu</a>
+                <a class="nav__bar-item" href="sanpham.html">Sản Phẩm</a>
+                <a class="nav__bar-item" href="tintuc.html">Tin Tức</a>
+                <a class="nav__bar-item" href="dangnhap.html">Đăng Nhập</a>
+                <a class="nav__bar-item" href="dangki.html">Đăng Ký</a>
+                <a class="nav__bar-item" href="lienhe.html">Liên Hệ</a>
+
+                <div class="nav__bar-find">
+                    <input class="nav__find-input" stype="text" placeholder=" Nhập nội dung càn tìm...">
+                    <i class="nav__find-search fas fa-search "></i>
+                    <i class="nav__find-cart fas fa-shopping-cart"></i>
+                </div>
+            </nav>
+        </div>
+
+    </header>
+
+    <!-- main -->
+    <main>
+        <form action="/action_page.php" method="post">
+            <fieldset class="body__dangnhap">
+                <div class="container__dangNhap">
+                    <div class="gt__h1">
+                        <h1 class="gt__des">ĐĂNG NHẬP</h1>
+                        <div class="gt_decoration"></div>
+                    </div>
+                    <table class="tb__dangnhap">
+                        <!-- anh -->
+                        <tr>
+                            <td class="td" align="center" colspan="2"><img class="imglogin" src="./imgage/dangnhap/userlogin.png"
+                                    alt="userlogin"></td>
+                        </tr>
+                        <!-- email -->
+                        <tr>
+                            <td class="td" colspan="2" align="center">
+                                <i class="fa-regular fa-envelope icon__dangnhap"></i>
+                                <input class="input__dangnhap" type="text" name="Email" placeholder="Nhập email">
+                            </td>
+                        </tr>
+                        <!-- mk -->
+                        <tr>                         
+                            <td class="td" colspan="2" align="center">
+                                <i class="fa-solid fa-key icon__dangnhap"></i>
+                                <label for="id"><input  class="input__dangnhap" type="password" name="pwd" placeholder="Nhập mật khẩu"></label>
+                            </td>
+                        </tr>
+                        <!-- button -->
+                        <tr>
+                            
+                            <td class="td" colspan="2" align="center">
+                                <h2 class="forgetMk__dangnhap">Bạn quên <a
+                                    href="https://www.w3schools.com/tags/tryit.asp?filename=tryhtml5_input_type_radio">Mật
+                                    khẩu?</a>
+                                <label for="id"><input type="checkbox" name="remember"> Ghi nhớ cho lần đăng nhập sau</label>
+                            </h2>
+                                <input class="btn__dangnhap" type="submit" value="Đăng nhập">
+                                <input class="btn__dangnhap" type="reset" value="Hủy">
+                            </td>
+                        </tr>
+                    </table>
+
+                </div>
+            </fieldset>
+        </form>
+    </main>
+
+    <!-- footer -->
+    <footer>
+        <div class="footer footer__dangnhap">
+            <div class="footer__item">&copy;2021 Bản quyền thuộc về FreeezeVN.
+                <a class="footer__item-icon" href=""><i class="fa-brands fa-facebook"></i></a>
+                <a class="footer__item-icon" href=""><i class="fa-brands fa-twitter"></i></a>
+                <a class="footer__item-icon" href=""><i class="fa-brands fa-pinterest"></i></a>
+            </div>
+        </div>
+        <a class="footer__to_top" href="#logo"><img src="./imgage/top.png" alt="top" width="20px"></a>
+
+    </footer>
+</body>
+
+</html>
